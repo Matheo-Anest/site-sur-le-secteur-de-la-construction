@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Site sur la Construction</title>
+    <link href="css.css" rel="stylesheet" type="text/css">
+</head>
+<body class="page6">
+
+<header>
+    <nav>
+        <h1>Le domaine de la construction</h1>
+        <img class="logo_uvsq" src="images/logo_uvsq.png" alt="logo UVSQ">
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <div class="choix">
+                <button class="bouton_choix">Organisations</button>
+                <div class="contenu_choix">
+                    <a href="page1.html">Organisation 1</a>
+                    <a href="page2.html">Organisation 2</a>
+                    <a href="page3.html">Organisation 3</a>
+                </div>
+            </div>
+            <li><a href="page4.html">Analyse</a></li>
+            <li><a href="page5.html">Actions</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="formulaire">
+    <h2>Veuillez répondre au formulaire</h2>
+
+    <form action="index.html" method="POST">
+        <div class="form">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Ex: Dupont">
+        </div>
+
+        <div class="form">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Ex: Jean">
+        </div>
+
+        <div class="form">
+            <label for="age">Votre âge</label>
+            <input type="number" id="age" name="age" min="1" max="120" placeholder="Ex: 25">
+        </div>
+
+        <div class="form">
+            <fieldset style="border:none; padding:0; margin:0;">
+
+                <legend class="q_radio">Avez-vous aimé notre site présentation du secteur ?</legend>
+
+                <div class="choix_radio">
+                    <label class="radio_label"><input type="radio" name="aime" value="oui">Oui</label>
+                    <label class="radio_label"><input type="radio" name="aime" value="non">Non</label>
+                </div>
+
+            </fieldset>
+        </div>
+
+        <div class="form">
+            <label for="avis">Comment s'est passée la navigation sur notre site ?</label>
+            <textarea id="avis" name="avis"></textarea>
+        </div>
+
+        <button class="bouton_formulaire" type="submit">Envoyer</button>
+    </form>
+</div>
+
+<footer>
+    <p>SAÉ1.05 et SAÉ1.06</p>
+    <p>
+        Mathéo Anest et Eryas Nouri<br>
+        BUT Informatique 1ère année<br>
+        Groupe B
+    </p>
+    <p class="bas">
+        Nous contacter :<br>
+        matheo.anest@ens.uvsq.fr<br>
+        eryas.nouri@ens.uvsq.fr
+    </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,310 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/image_accueil.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+header {
+    background-color: orange;
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: black;
+    color: orange;
+    transition: 0.3s;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 30px auto;
+    padding: 20px 30px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.index h2, .page4 h2, .page5 h2 {
+    color: orange;
+    border-bottom: 2px solid orange;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.page4 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+    background-color: #FF9D00;
+    background: linear-gradient(147deg,rgba(255, 157, 0, 1) 0%, rgba(242, 169, 141, 1) 28%, rgba(255, 255, 255, 1) 100%);
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+caption {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 28px;
+}
+
+.titre_tableau {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_vinci, .img_eiffage, .img_cham {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    background-color: orange;
+    border-top: 3px solid black;
+    margin-top:10px;
+}
+
+.page6 footer {
+    margin-top: auto;
+}
+
+.titre_page5, .titre_page4, .titre_index {
+    color: black;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-align: left;
+    font-size: 28px;
+}
+
+.page5li {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 30px auto;
+    padding: 20px 30px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.page6 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.formulaire {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    background: RGBA(255, 157, 0, 1);
+    background: linear-gradient(90deg, rgba(255, 157, 0, 1) 0%, rgba(242, 169, 141, 1) 100%);
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+}
+
+.form {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label, .q_radio{
+    display: block;
+    margin-bottom: 8px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.choix_radio {
+    display: flex;
+    flex-direction: column; /* Vertical */
+    align-items: flex-start; /* Tout caler à gauche */
+    gap: 10px;
+}
+
+.choix_radio label {
+    display: flex;
+    flex-direction: row-reverse; /* C'est ça qui met le rond à droite ! */
+    align-items: center; /* Centre la hauteur */
+    justify-content: flex-end; /* Colle le tout à gauche (car l'axe est inversé) */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.bouton_formulaire {
+    width: 100%;
+    padding: 14px;
+    background-color: #27ae60;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.bouton_formulaire:hover {
+    background-color: #219150;
+}
+
+.bas {
+    margin-bottom: 0px;
+}
+
+.contenu {
+    display: flex;
+}
+
+.chantier_vinci, .chantier_eiffage, .chantier_cham {
+    width: 700px;
+    height: 847px;
+    margin-right: 50px;
+    margin-top: auto;
+    object-fit: cover;
+}
+
+.choix {
+    position: relative;
+    display: inline-block;
+}
+
+.bouton_choix {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 16px;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bouton_choix:hover, .choix:hover .bouton_choix {
+    background-color: black;
+    color: orange;
+}
+
+.contenu_choix {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.choix:hover .contenu_choix {
+    display: block;
+}
+
+.contenu_choix a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: normal;
+}
+
+.contenu_choix a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+h3 {
+    margin-left: 150px;
+}
+
+.logo_uvsq {
+    width: 95px;
+}
